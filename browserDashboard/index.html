@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Info Dashboard</title>
+</head>
+
+<body>
+
+    <h1>Browser Info Dashboard</h1>
+
+    <p>Enter your name and favorite website below.</p>
+
+    <form name="userForm" id="userForm">
+
+        <label for="userName">Name:</label>
+        <input type="text" id="userName" name="userName">
+
+        <br><br>
+
+        <label for="favoriteWebsite">Favorite Website:</label>
+        <input type="text" id="favoriteWebsite" name="favoriteWebsite"
+               placeholder="https://example.com">
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <section id="output">
+        <h2>Dashboard Information</h2>
+
+        <p id="browserInfo"></p>
+        <p id="userInfo"></p>
+        <p id="urlInfo"></p>
+    </section>
+
+    <button id="backButton">Back</button>
+    <button id="forwardButton">Forward</button>
+
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
